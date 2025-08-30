@@ -29,7 +29,7 @@
 #include <tchar.h>
 #else
 #ifdef _LINUX
-#  include <SDL.h>
+#  include <SDL2/SDL.h>
 #  include <stdlib.h>
 #  include <stdio.h>
 #  include <memory.h>
