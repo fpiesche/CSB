@@ -3174,7 +3174,7 @@ void OVERLAYDATA::CreateOverlayTable(i16 *atariPalette, bool useOverlay)
       m_table[i] = (i16)((RED<<13) | (GREEN<<8) | (BLUE<<2));
       m_table[i] |= (m_table[i] & 0xc718) >> 3;
 #else
-	  You must define some sort of RGB format!!
+	  printf("You must define some sort of RGB format!!");
 #endif
 #endif
     };
