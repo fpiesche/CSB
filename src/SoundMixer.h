@@ -1,8 +1,8 @@
 //
 // #include "stdafx.h"
-#include "SDL_audio.h"
-#include "SDL_version.h"
-#include "SDL_sound.h"
+#include "SDL2/SDL_audio.h"
+#include "SDL2/SDL_version.h"
+#include "SDL2/SDL_sound.h"
 
 #define MIX_EFFECTSMAXSPEED  "MIX_EFFECTSMAXSPEED"
 #define MIX_CHANNELS 16 // with conflux3 8 is not enough...
