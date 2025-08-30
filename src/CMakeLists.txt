@@ -124,6 +124,8 @@ add_executable(CsbWin WIN32
     utility.cpp
 )
 
+target_include_directories(CsbWin PRIVATE ${CMAKE_SOURCE_DIR}/imgui)
+
 if(UNIX)
 #	FIND_PACKAGE(GTK2)
 #	if(GTK2_FOUND)
