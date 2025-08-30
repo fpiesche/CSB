@@ -62,7 +62,7 @@ else(MSVC)
   if(APPLE)
     set(PLATFORM_SRC MacScreen.cpp CSBMac.cpp)
   else(APPLE)
-    set(PLATFORM_SRC LinScreen.cpp CSBlinux.cpp LinCSBUI.cpp)
+    set(PLATFORM_SRC WinScreen.cpp CSBlinux.cpp LinCSBUI.cpp)
   endif(APPLE)
 endif(MSVC)
 
@@ -146,4 +146,3 @@ endif(UNIX)
 if (CSB_ON_WIN32)
   target_link_libraries(CsbWin winmm.lib)
 endif(CSB_ON_WIN32)
-
